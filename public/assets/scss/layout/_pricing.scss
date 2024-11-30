@@ -1,0 +1,132 @@
+.it-pricing-5__item {
+    background-color: #FFF;
+    box-shadow: 2px 3.464px 40px 0px rgba(4, 23, 26, 0.08);
+    padding: 40px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .it-pricing-5__item {
+      padding: 30px;
+    }
+  }
+  .it-pricing-5__item.active {
+    background-color: var(--it-common-black);
+  }
+  .it-pricing-5__item.active .it-pricing-5__top-box i {
+    color: var(--it-common-white);
+  }
+  .it-pricing-5__item.active .it-pricing-5__top-box span {
+    color: var(--it-common-white);
+    background-color: #272727;
+  }
+  .it-pricing-5__item.active .it-pricing-5__middle-box span {
+    color: var(--it-common-white);
+  }
+  .it-pricing-5__top-box i {
+    font-size: 80px;
+    color: var(--it-common-black);
+    display: inline-block;
+    margin-right: 40px;
+    transform: translateY(11px);
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .it-pricing-5__top-box i {
+      font-size: 70px;
+    }
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .it-pricing-5__top-box i {
+      font-size: 65px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .it-pricing-5__top-box i {
+      font-size: 60px;
+    }
+  }
+  .it-pricing-5__top-box span {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--it-common-black);
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: #f5efef;
+    display: inline-block;
+    text-align: center;
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .it-pricing-5__top-box span {
+      font-size: 19px;
+    }
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .it-pricing-5__top-box span {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .it-pricing-5__top-box span {
+      font-size: 15px;
+    }
+  }
+  .it-pricing-5__middle-box span {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--it-common-black);
+  }
+  .it-pricing-5__middle-box span strong {
+    font-weight: 700;
+    font-size: 48px;
+  }
+  @media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .it-pricing-5__middle-box span strong {
+      font-size: 45px;
+    }
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .it-pricing-5__middle-box span strong {
+      font-size: 42px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .it-pricing-5__middle-box span strong {
+      font-size: 35px;
+    }
+  }
+  .it-pricing-5__list ul li {
+    list-style-type: none;
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .it-pricing-5__shape {
+    position: absolute;
+    right: -52%;
+    bottom: 65px;
+    z-index: -1;
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .it-pricing-5__shape {
+      right: -20%;
+    }
+  }
+  .it-pricing-5__title-wrap {
+    margin-bottom: 55px;
+  }
+  @media (max-width: 767px) {
+    .it-pricing-5__section-box {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .it-pricing-5__tab ul li button {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--it-common-black);
+  }
+  .it-pricing-5__tab ul li button.active {
+    color: red;
+  }
+  .it-pricing-5__tab ul li button:hover {
+    color: var(--it-theme-1);
+  }
