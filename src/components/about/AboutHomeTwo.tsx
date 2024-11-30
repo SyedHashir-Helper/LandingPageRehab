@@ -1,5 +1,6 @@
 
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { MdElderly, MdOutlineElderly, MdHandshake  } from 'react-icons/md';
@@ -12,7 +13,7 @@ const AboutHomeTwo = () => {
           <div className="row align-items-xl-start align-items-center">
             <div className="col-xxl-5 col-xl-6 col-lg-6">
               <div className="it-about-4__thumb-box">
-                <img src="assets/img/about/aboutImage.webp" alt="rk-theme" />
+                <Image src="assets/img/about/aboutImage.webp" alt="rk-theme" />
               </div>
             </div>
             <div className="col-xxl-7 col-xl-6 col-lg-6 wow itfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">

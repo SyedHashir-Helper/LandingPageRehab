@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import useSticky from '@/hooks/use-sticky';
 import Search from '@/components/common/Search';
 import Offcanvus from '@/components/common/Offcanvus';
-
+import Image from 'next/image';
 const HeaderTwo = () => {
 
   const { sticky } = useSticky()
@@ -24,7 +24,7 @@ const HeaderTwo = () => {
               <div className="col-xl-3 col-lg-6 col-md-4 col-6">
                 <div className="it-header-middle__logo-box">
                   <Link href="/">
-                    <img src="assets/img/logo/rehabLogoWeb.png" alt="rk-theme" />
+                    <Image src="assets/img/logo/rehabLogoWeb.png" alt="rk-theme" />
                   </Link>
                 </div>
               </div>

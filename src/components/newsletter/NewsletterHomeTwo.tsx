@@ -1,17 +1,17 @@
 
 import Link from 'next/link';
 import React from 'react';
-
+import Image from 'next/image';
 const NewsletterHomeTwo = () => {
   return (
     <>
       <div className="it-newsletter-4__area">
         <div className="it-newsletter-4__bg fix p-relative" style={{ backgroundImage: `url(/assets/img/newsletter/bg-4-1.jpg)` }}>
           <div className="it-newsletter-4__thumb d-none d-xl-block">
-            <img src="assets/img/newsletter/bg.png" alt="rk-theme" />
+            <Image src="assets/img/newsletter/bg.png" alt="rk-theme" />
           </div>
           <div className="it-newsletter-4__shape-1 d-none d-xl-block">
-            <img src="assets/img/newsletter/shape-4-1.png" alt="rk-theme" />
+            <Image src="assets/img/newsletter/shape-4-1.png" alt="rk-theme" />
           </div>
           <div className="container">
             <div className="row align-items-center">

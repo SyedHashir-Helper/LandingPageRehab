@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React from 'react';
-
+import Image from 'next/image';
 const FooterOne = ({ style_2 }: any) => {
   return (
     <>
@@ -16,7 +16,7 @@ const FooterOne = ({ style_2 }: any) => {
                 <div className="it-footer__widget footer-col-1">
                   <div className="it-footer__logo">
                     <Link href="/">
-                      <img src="assets/img/logo/LogoWebRehab.webp" alt="rk-theme" />
+                      <Image src="assets/img/logo/LogoWebRehab.webp" alt="rk-theme" />
                     </Link>
                   </div>
                   <div className="it-footer__text pb-15">
@@ -55,14 +55,14 @@ const FooterOne = ({ style_2 }: any) => {
                   <h4 className="it-footer__widget-title">Recent Blogs</h4>
                   <div className="it-footer__gallery-box">
                     <div className="it-footer__gallery d-flex align-items-center">
-                      <img src="assets/img/footer/footer-sm-1-1.jpg" alt="rk-theme" />
+                      <Image src="assets/img/footer/footer-sm-1-1.jpg" alt="rk-theme" />
                       <div className="it-footer__gallery-content">
                         <span className={`${style_2 ? "color-red" : ""}`}><i className="far fa-clock"></i>02 Feb, 2023</span>
                         <p>Cras quis tempus diam. In vel orci id sem pretium comm</p>
                       </div>
                     </div>
                     <div className="it-footer__gallery d-flex align-items-center">
-                      <img src="assets/img/footer/footer-sm-1-2.jpg" alt="rk-theme" />
+                      <Image src="assets/img/footer/footer-sm-1-2.jpg" alt="rk-theme" />
                       <div className="it-footer__gallery-content">
                         <span className={`${style_2 ? "color-red" : ""}`}><i className="far fa-clock"></i>02 Feb, 2023</span>
                         <p>There is no one who loves pai itsel who seeks after it and</p>

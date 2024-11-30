@@ -4,6 +4,7 @@
 import React from 'react';
 import Link from 'next/link';
 import MobileMenus from '@/layouts/headers/Menu/mobile-menus';
+import Image from 'next/image';
 
 const Offcanvus = ({openSidebar, setOpenSidebar} : any) => {
   return (
@@ -18,7 +19,7 @@ const Offcanvus = ({openSidebar, setOpenSidebar} : any) => {
           </div>
           <div className="itoffcanvas__logo">
             <Link href="/">
-              <img src="assets/img/logo/white-logo.png" alt="" />
+              <Image src="assets/img/logo/white-logo.png" alt="" />
             </Link>
           </div>
           <div className="itoffcanvas__text">

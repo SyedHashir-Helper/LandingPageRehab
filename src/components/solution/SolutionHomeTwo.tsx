@@ -5,13 +5,13 @@ import { FaRegAddressBook, FaPlug, FaDatabase } from "react-icons/fa";
 import { AiOutlineRobot } from "react-icons/ai";
 import { IoCameraOutline } from "react-icons/io5";
 import { MdDashboard } from "react-icons/md";
-
+import Image from 'next/image';
 const SolutionHomeTwo = () => {
   return (
     <>
       <div className="it-solution-4__area fix z-index-3 black-bg pt-100 pb-100">
         <div className="it-solution-4__shape-1">
-          <img src="assets/img/solution/solution-bg-3.png" alt="rk-theme" />
+          <Image src="assets/img/solution/solution-bg-3.png" alt="rk-theme" />
         </div>
         <div className="container">
           <div className="row">

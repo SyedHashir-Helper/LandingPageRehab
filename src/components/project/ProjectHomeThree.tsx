@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import Image from 'next/image';
 
 const ProjectHomeThree = () => {
   return (
@@ -53,7 +53,7 @@ const ProjectHomeThree = () => {
 
                 <SwiperSlide className="swiper-slide">
                   <div className="it-project-5__item fix">
-                    <img src="assets/img/project/project-5-1.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/project-5-1.jpg" alt="rk-theme" />
                     <div className="it-project-5__text">
                       <Link href="/project-details"><i
                         className="fa-sharp fa-regular fa-arrow-right"></i></Link>
@@ -61,14 +61,14 @@ const ProjectHomeThree = () => {
                       <h6>Digital Solution</h6>
                     </div>
                     <div className="it-project-5__shape">
-                      <img src="assets/img/project/shape-5-1.png" alt="rk-theme" />
+                      <Image src="assets/img/project/shape-5-1.png" alt="rk-theme" />
                     </div>
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide className="swiper-slide">
                   <div className="it-project-5__item fix">
-                    <img src="assets/img/project/project-5-2.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/project-5-2.jpg" alt="rk-theme" />
                     <div className="it-project-5__text">
                       <Link href="/project-details"><i
                         className="fa-sharp fa-regular fa-arrow-right"></i></Link>
@@ -76,14 +76,14 @@ const ProjectHomeThree = () => {
                       <h6>Digital Solution</h6>
                     </div>
                     <div className="it-project-5__shape">
-                      <img src="assets/img/project/shape-5-1.png" alt="rk-theme" />
+                      <Image src="assets/img/project/shape-5-1.png" alt="rk-theme" />
                     </div>
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide className="swiper-slide">
                   <div className="it-project-5__item fix">
-                    <img src="assets/img/project/project-5-3.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/project-5-3.jpg" alt="rk-theme" />
                     <div className="it-project-5__text">
                       <Link href="/project-details"><i
                         className="fa-sharp fa-regular fa-arrow-right"></i></Link>
@@ -91,14 +91,14 @@ const ProjectHomeThree = () => {
                       <h6>Digital Solution</h6>
                     </div>
                     <div className="it-project-5__shape">
-                      <img src="assets/img/project/shape-5-1.png" alt="rk-theme" />
+                      <Image src="assets/img/project/shape-5-1.png" alt="rk-theme" />
                     </div>
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide className="swiper-slide">
                   <div className="it-project-5__item fix">
-                    <img src="assets/img/project/project-5-4.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/project-5-4.jpg" alt="rk-theme" />
                     <div className="it-project-5__text">
                       <Link href="/project-details"><i
                         className="fa-sharp fa-regular fa-arrow-right"></i></Link>
@@ -106,14 +106,14 @@ const ProjectHomeThree = () => {
                       <h6>Digital Solution</h6>
                     </div>
                     <div className="it-project-5__shape">
-                      <img src="assets/img/project/shape-5-1.png" alt="rk-theme" />
+                      <Image src="assets/img/project/shape-5-1.png" alt="rk-theme" />
                     </div>
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide className="swiper-slide">
                   <div className="it-project-5__item fix">
-                    <img src="assets/img/project/project-5-3.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/project-5-3.jpg" alt="rk-theme" />
                     <div className="it-project-5__text">
                       <Link href="/project-details"><i
                         className="fa-sharp fa-regular fa-arrow-right"></i></Link>
@@ -121,7 +121,7 @@ const ProjectHomeThree = () => {
                       <h6>Digital Solution</h6>
                     </div>
                     <div className="it-project-5__shape">
-                      <img src="assets/img/project/shape-5-1.png" alt="rk-theme" />
+                      <Image src="assets/img/project/shape-5-1.png" alt="rk-theme" />
                     </div>
                   </div>
                 </SwiperSlide>

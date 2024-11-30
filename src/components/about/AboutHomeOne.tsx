@@ -3,6 +3,7 @@
 import React from 'react';
 import Count from '../common/count';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const AboutHomeOne = ({style_2}: any) => {
   return (
@@ -13,7 +14,7 @@ const AboutHomeOne = ({style_2}: any) => {
             <div className="col-xl-6 col-lg-6 wow itfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
               <div className="it-about__left-box text-end p-relative">
                 <div className="it-about__thumb">
-                  <img src="assets/img/about/about-1-1.png" alt="rk-theme" />
+                  <Image src="assets/img/about/about-1-1.png" alt="rk-theme" />
                 </div>
                 <div className="it-about__experience-box">
                   <div className="it-about__experience d-flex align-items-center">

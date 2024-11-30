@@ -3,6 +3,7 @@
 
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const Search = ({ open, setOpen }: any) => {
   return (
@@ -15,7 +16,7 @@ const Search = ({ open, setOpen }: any) => {
                 <div className="search__top d-flex justify-content-between align-items-center">
                   <div className="search__logo">
                     <Link href="/">
-                      <img src="assets/img/logo/white-logo.png" alt="rk-theme" />
+                      <Image src="assets/img/logo/white-logo.png" alt="rk-theme" />
                     </Link>
                   </div>
                   <div className="search__close">

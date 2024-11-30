@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const BlogHomeThree = () => {
   return (
@@ -23,7 +24,7 @@ const BlogHomeThree = () => {
                 <div className="it-blog-3__item z-index space it-blog-3__item-color">
                   <Link href="/blog-details">
                     <div className="it-blog-3__thumb fix">
-                      <img className="w-100" src="assets/img/blog/blog-2-1.jpg" alt="rk-theme" />
+                      <Image className="w-100" src="assets/img/blog/blog-2-1.jpg" alt="rk-theme" />
                     </div>
                   </Link>
                   <div className="it-blog-3__content-box">
@@ -48,7 +49,7 @@ const BlogHomeThree = () => {
                 <div className="it-blog-3__item z-index space it-blog-2__item-color">
                   <Link href="/blog-details">
                     <div className="it-blog-3__thumb fix">
-                      <img className="w-100" src="assets/img/blog/blog-2-3.jpg" alt="rk-theme" />
+                      <Image className="w-100" src="assets/img/blog/blog-2-3.jpg" alt="rk-theme" />
                     </div>
                   </Link>
                   <div className="it-blog-3__content-box">
@@ -72,7 +73,7 @@ const BlogHomeThree = () => {
                 <div className="it-blog-3__item z-index space it-blog-2__item-color">
                   <Link href="/blog-details">
                     <div className="it-blog-3__thumb fix">
-                      <img className="w-100" src="assets/img/blog/blog-2-2.jpg" alt="rk-theme" />
+                      <Image className="w-100" src="assets/img/blog/blog-2-2.jpg" alt="rk-theme" />
                     </div>
                   </Link>
                   <div className="it-blog-3__content-box">

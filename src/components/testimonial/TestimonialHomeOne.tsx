@@ -1,6 +1,6 @@
 
 "use client"
-
+import Image from 'next/image';
 import React from 'react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -85,7 +85,7 @@ const TestimonialHomeOne = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="it-testimonial__item text-center p-relative">
                       <div className="it-testimonial__avatar">
-                        <img src="assets/img/testimonial/author-1-1.png" alt="rk-theme" />
+                        <Image src="assets/img/testimonial/author-1-1.png" alt="rk-theme" />
                       </div>
                       <div className="it-testimonial__author-info">
                         <h5 className="it-testimonial__author-name">Hazzle Hood</h5>
@@ -106,7 +106,7 @@ const TestimonialHomeOne = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="it-testimonial__item p-relative text-center">
                       <div className="it-testimonial__avatar">
-                        <img src="assets/img/testimonial/author-1-2.png" alt="rk-theme" />
+                        <Image src="assets/img/testimonial/author-1-2.png" alt="rk-theme" />
                       </div>
                       <div className="it-testimonial__author-info">
                         <h5 className="it-testimonial__author-name">Devid Roko</h5>
@@ -127,7 +127,7 @@ const TestimonialHomeOne = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="it-testimonial__item p-relative text-center">
                       <div className="it-testimonial__avatar">
-                        <img src="assets/img/testimonial/author-1-3.png" alt="rk-theme" />
+                        <Image src="assets/img/testimonial/author-1-3.png" alt="rk-theme" />
                       </div>
                       <div className="it-testimonial__author-info">
                         <h5 className="it-testimonial__author-name">Lunna Baily</h5>

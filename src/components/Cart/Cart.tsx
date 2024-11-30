@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const Cart = () => {
 
@@ -64,7 +65,7 @@ const Cart = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td className="product-thumbnail"><Link href="/product-details"><img
+                        <td className="product-thumbnail"><Link href="/product-details"><Image
                           src="assets/img/product/product-1.jpg" alt="rk-theme" /></Link></td>
                         <td className="product-name"><Link href="/product-details">specialone 4 Inch 820W</Link></td>
                         <td className="product-price"><span className="amount">$180.00</span></td>
@@ -81,7 +82,7 @@ const Cart = () => {
                         <td className="product-remove"><a href="#"><i className="fa fa-times"></i></a></td>
                       </tr>
                       <tr>
-                        <td className="product-thumbnail"><Link href="/product-details"><img
+                        <td className="product-thumbnail"><Link href="/product-details"><Image
                           src="assets/img/product/product-2.jpg" alt="rk-theme" /></Link></td>
                         <td className="product-name"><Link href="/product-details">specialone 4 Inch 820W</Link>
                         </td>
@@ -99,7 +100,7 @@ const Cart = () => {
                         <td className="product-remove"><a href="#"><i className="fa fa-times"></i></a></td>
                       </tr>
                       <tr>
-                        <td className="product-thumbnail"><Link href="/product-details"><img
+                        <td className="product-thumbnail"><Link href="/product-details"><Image
                           src="assets/img/product/product-3.jpg" alt="rk-theme" /></Link></td>
                         <td className="product-name"><Link href="/product-details">specialone 4 Inch 820W</Link></td>
                         <td className="product-price"><span className="amount">$180.00</span></td>
@@ -112,7 +113,7 @@ const Cart = () => {
                         <td className="product-remove"><a href="#"><i className="fa fa-times"></i></a></td>
                       </tr>
                       <tr>
-                        <td className="product-thumbnail"><Link href="/product-details"><img
+                        <td className="product-thumbnail"><Link href="/product-details"><Image
                           src="assets/img/product/product-2.jpg" alt="rk-theme" /></Link></td>
                         <td className="product-name"><Link href="/product-details">specialone 4 Inch 820W</Link>
                         </td>

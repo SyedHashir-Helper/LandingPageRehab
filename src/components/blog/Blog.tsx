@@ -1,5 +1,6 @@
 
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -13,7 +14,7 @@ const Blog = () => {
               <div className="it-blog-3__item color">
                 <Link href="/blog-details">
                   <div className="it-blog-3__thumb black-color fix">
-                    <img className="w-100" src="assets/img/blog/blog-2-1.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-2-1.jpg" alt="rk-theme" />
                   </div>
                 </Link>
                 <div className="it-blog-3__content-box">
@@ -34,7 +35,7 @@ const Blog = () => {
               <div className="it-blog-3__item color space it-blog-3__item-color">
                 <Link href="/blog-details">
                   <div className="it-blog-3__thumb black-color fix">
-                    <img className="w-100" src="assets/img/blog/blog-2-2.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-2-2.jpg" alt="rk-theme" />
                   </div>
                 </Link>
                 <div className="it-blog-3__content-box">
@@ -55,7 +56,7 @@ const Blog = () => {
               <div className="it-blog-3__item space color it-blog-3__item-color">
                 <Link href="/blog-details">
                   <div className="it-blog-3__thumb black-color fix">
-                    <img className="w-100" src="assets/img/blog/blog-2-3.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-2-3.jpg" alt="rk-theme" />
                   </div>
                 </Link>
                 <div className="it-blog-3__content-box">
@@ -76,7 +77,7 @@ const Blog = () => {
               <div className="it-blog-3__item colorspace it-blog-3__item-color">
                 <Link href="/blog-details">
                   <div className="it-blog-3__thumb black-color fix">
-                    <img className="w-100" src="assets/img/blog/blog-2-4.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-2-4.jpg" alt="rk-theme" />
                   </div>
                 </Link>
                 <div className="it-blog-3__content-box">
@@ -97,7 +98,7 @@ const Blog = () => {
               <div className="it-blog-3__item color space it-blog-3__item-color">
                 <Link href="/blog-details">
                   <div className="it-blog-3__thumb black-color fix">
-                    <img className="w-100" src="assets/img/blog/blog-2-5.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-2-5.jpg" alt="rk-theme" />
                   </div>
                 </Link>
                 <div className="it-blog-3__content-box">
@@ -118,7 +119,7 @@ const Blog = () => {
               <div className="it-blog-3__item color space it-blog-3__item-color">
                 <Link href="/blog-details">
                   <div className="it-blog-3__thumb black-color fix">
-                    <img className="w-100" src="assets/img/blog/blog-2-6.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-2-6.jpg" alt="rk-theme" />
                   </div>
                 </Link>
                 <div className="it-blog-3__content-box">

@@ -2,13 +2,13 @@
 
 import Link from 'next/link';
 import React from 'react';
-
+import Image from 'next/image';
 const TechnologyHomeThree = () => {
   return (
     <>
       <div className="it-technology-5__area p-relative black-bg pt-120 pb-120">
         <div className="it-technology-5__bg">
-          <img src="assets/img/technology/tech-5-1.jpg" alt="rk-theme" />
+          <Image src="assets/img/technology/tech-5-1.jpg" alt="rk-theme" />
             <div className="it-technology-5__bg-text-box d-none d-lg-block">
               <div className="it-technology-5__bg-text d-flex align-items-center">
                 <i className="flaticon-medal"></i>

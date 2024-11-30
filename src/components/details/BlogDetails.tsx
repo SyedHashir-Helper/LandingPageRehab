@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import React from 'react';
-
+import Image from 'next/image';
 const BlogDetails = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const BlogDetails = () => {
                 <article>
                   <div className="postbox__thumb mb-20 w-img wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                     <Link href="/blog-details">
-                      <img src="assets/img/blog/Details-1-1.jpg" alt="rk-theme" />
+                      <Image src="assets/img/blog/Details-1-1.jpg" alt="rk-theme" />
                     </Link>
                   </div>
                   <div className="postbox__details-title-box pb-40 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
@@ -27,8 +27,8 @@ const BlogDetails = () => {
                   <div className="postbox__content pb-20 wow tpfadeUp" data-wow-duration=".9s"
                     data-wow-delay=".9s">
                     <div className="postbox__content-img mb-60 d-flex justify-content-between">
-                      <img src="assets/img/blog/Details-1-2.jpg" alt="rk-theme" />
-                      <img src="assets/img/blog/Details-1-3.jpg" alt="rk-theme" />
+                      <Image src="assets/img/blog/Details-1-2.jpg" alt="rk-theme" />
+                      <Image src="assets/img/blog/Details-1-3.jpg" alt="rk-theme" />
                     </div>
                     <div className="postbox__text">
                       <h4 className="postbox__details-title">Latest Articles Updated Daily</h4>
@@ -69,7 +69,7 @@ const BlogDetails = () => {
                         <div className="postbox__comment-box d-flex align-items-center">
                           <div className="postbox__comment-info ">
                             <div className="postbox__comment-avater mr-20">
-                              <img src="assets/img/testimonial/author-4-5.png" alt="rk-theme" />
+                              <Image src="assets/img/testimonial/author-4-5.png" alt="rk-theme" />
                             </div>
                           </div>
                           <div className="postbox__comment-text">
@@ -114,7 +114,7 @@ const BlogDetails = () => {
                     <div className="sidebar__post">
                       <div className="rc__post mb-20 d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <Link href="/blog-details"><img src="assets/img/blog/blog-details-1.jpg" alt="rk-theme" /></Link>
+                          <Link href="/blog-details"><Image src="assets/img/blog/blog-details-1.jpg" alt="rk-theme" /></Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">
@@ -128,7 +128,7 @@ const BlogDetails = () => {
                       </div>
                       <div className="rc__post mb-20 d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <Link href="/blog-details"><img src="assets/img/blog/blog-details-1-2.jpg" alt="rk-theme" /></Link>
+                          <Link href="/blog-details"><Image src="assets/img/blog/blog-details-1-2.jpg" alt="rk-theme" /></Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">
@@ -142,7 +142,7 @@ const BlogDetails = () => {
                       </div>
                       <div className="rc__post d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <Link href="/blog-details"><img src="assets/img/blog/blog-details-1-3.jpg" alt="rk-theme" /></Link>
+                          <Link href="/blog-details"><Image src="assets/img/blog/blog-details-1-3.jpg" alt="rk-theme" /></Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">

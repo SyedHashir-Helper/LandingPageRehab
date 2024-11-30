@@ -3,6 +3,7 @@
 import React from 'react';
 import Count from '../common/count';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const AboutHomeThree = () => {
   return (
@@ -44,16 +45,16 @@ const AboutHomeThree = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="it-about-5__thumb-box p-relative text-center text-lg-end">
                 <div className="it-about-5__thumb">
-                  <img src="assets/img/about/about-5-1.jpg" alt="rk-theme" />
+                  <Image src="assets/img/about/about-5-1.jpg" alt="rk-theme" />
                 </div>
                 <div className="it-about-5__thumb-sm">
-                  <img src="assets/img/about/about-5-2.jpg" alt="rk-theme" />
+                  <Image src="assets/img/about/about-5-2.jpg" alt="rk-theme" />
                 </div>
                 <div className="it-about-5__shape-1 d-none d-xl-block">
-                  <img src="assets/img/about/shape-5-1.png" alt="rk-theme" />
+                  <Image src="assets/img/about/shape-5-1.png" alt="rk-theme" />
                 </div>
                 <div className="it-about-5__shape-2 d-none d-xxl-block">
-                  <img src="assets/img/about/shape-5-2.png" alt="rk-theme" />
+                  <Image src="assets/img/about/shape-5-2.png" alt="rk-theme" />
                 </div>
               </div>
             </div>

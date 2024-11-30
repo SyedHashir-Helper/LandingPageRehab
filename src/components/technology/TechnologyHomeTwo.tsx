@@ -2,7 +2,7 @@
 import React from 'react';
 import Count from '../common/count';
 import Link from 'next/link';
-
+import Image from 'next/image';
 const TechnologyHomeTwo = () => {
   return (
     <>
@@ -19,7 +19,7 @@ const TechnologyHomeTwo = () => {
                 </div>
                 <div className="it-technology-4__text pb-10">
                   <p>Through CCTV cameras integration, we analyze patient activities 24/7 and log them. If any abnormality
-                    happens, alerts are generated and sent to multiple persons. We integrate sensors for gathering patient's biometrics.
+                    happens, alerts are generated and sent to multiple persons. We integrate sensors for gathering biometrics of patient.
                   </p>
                 </div>
                 <div className="it-choose-2__item-wrap mb-60 d-flex align-items-center">
@@ -47,13 +47,13 @@ const TechnologyHomeTwo = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="it-technology-4__thumb-box p-relative text-center text-lg-end">
                 <div className="it-technology-4__thumb">
-                  <img src="assets/img/technology/tech1.jpg" alt="rk-theme" />
+                  <Image src="assets/img/technology/tech1.jpg" alt="rk-theme" />
                 </div>
                 <div className="it-technology-4__thumb-sm">
-                  <img src="assets/img/technology/tech2.jpg" alt="rk-theme" />
+                  <Image src="assets/img/technology/tech2.jpg" alt="rk-theme" />
                 </div>
                 <div className="it-technology-4__shape d-none d-md-block">
-                  <img src="assets/img/technology/shape-4-1.png" alt="rk-theme" />
+                  <Image src="assets/img/technology/shape-4-1.png" alt="rk-theme" />
                 </div>
               </div>
             </div>

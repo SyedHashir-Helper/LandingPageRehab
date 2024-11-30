@@ -5,6 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 import { Autoplay, EffectFade, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 const setting = {
   loop: true,
@@ -76,23 +77,23 @@ const HeroHomeTwo = () => {
               className="it-slider-4__area d-flex align-items-center justify-content-center p-relative it-slider-4__height">
               <div className="it-slider-4__bg" style={{ backgroundImage: `url(/assets/img/slider/slider1-2.jpg)` }}></div>
               <div className="it-slider-4__shape-1 d-none d-lg-block">
-                <img src="assets/img/slider/shape-4-2.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-2.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-2 d-none d-lg-block">
-                <img src="assets/img/slider/shape-4-3.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-3.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-3 d-none d-md-block">
-                <img src="assets/img/slider/shape-4-4.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-4.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-4 d-none d-md-block">
-                <img src="assets/img/slider/shape-4-5.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-5.png" alt="rk-theme" />
               </div>
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="it-slider-4__content text-center z-index-3">
                       <div className="it-slider-4__icon pb-15">
-                        <img src="assets/img/slider/shape-d.png" alt="rk-theme" />
+                        <Image src="assets/img/slider/shape-d.png" alt="rk-theme" />
                       </div>
                       <h2 className="it-slider-2-title pb-30">REAL TIME <br />MONITORING</h2>
                     </div>
@@ -109,23 +110,23 @@ const HeroHomeTwo = () => {
               className="it-slider-4__area p-relative d-flex align-items-center justify-content-center it-slider-4__height">
               <div className="it-slider-4__bg" style={{ backgroundImage: `url(/assets/img/slider/slider-4-3.jpg)` }}></div>
               <div className="it-slider-4__shape-1 d-none d-lg-block">
-                <img src="assets/img/slider/shape-4-2.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-2.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-2 d-none d-lg-block">
-                <img src="assets/img/slider/shape-4-3.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-3.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-3 d-none d-md-block">
-                <img src="assets/img/slider/shape-4-4.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-4.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-4 d-none d-md-block">
-                <img src="assets/img/slider/shape-4-5.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-5.png" alt="rk-theme" />
               </div>
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="it-slider-4__content text-center z-index-3">
                       <div className="it-slider-4__icon pb-15">
-                        <img src="assets/img/slider/shape-4-1.png" alt="rk-theme" />
+                        <Image src="assets/img/slider/shape-4-1.png" alt="rk-theme" />
                       </div>
                       <h2 className="it-slider-2-title pb-30">INNOVATING <br />AI SOLUTION</h2>
                     </div>
@@ -142,23 +143,23 @@ const HeroHomeTwo = () => {
               className="it-slider-4__area p-relative d-flex align-items-center justify-content-center it-slider-4__height">
               <div className="it-slider-4__bg" style={{ backgroundImage: `url(/assets/img/slider/slide1-1.jpg)` }}></div>
               <div className="it-slider-4__shape-1 d-none d-lg-block">
-                <img src="assets/img/slider/shape-4-2.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-2.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-2 d-none d-lg-block">
-                <img src="assets/img/slider/shape-4-3.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-3.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-3 d-none d-md-block">
-                <img src="assets/img/slider/shape-4-4.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-4.png" alt="rk-theme" />
               </div>
               <div className="it-slider-4__shape-4 d-none d-md-block">
-                <img src="assets/img/slider/shape-4-5.png" alt="rk-theme" />
+                <Image src="assets/img/slider/shape-4-5.png" alt="rk-theme" />
               </div>
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="it-slider-4__content text-center z-index-3">
                       <div className="it-slider-4__icon pb-15">
-                        <img src="assets/img/slider/shape-e.png" alt="rk-theme" />
+                        <Image src="assets/img/slider/shape-e.png" alt="rk-theme" />
                       </div>
                       <h2 className="it-slider-2-title pb-30">EMPOWER <br />RECOVERY</h2>
                     </div>

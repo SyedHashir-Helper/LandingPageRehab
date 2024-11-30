@@ -1,16 +1,17 @@
 
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const Breadcrumb = ({ title, subtitle }: any) => {
   return (
     <>
       <div className="it-breadcrumb__area p-relative fix it-breadcrumb-height" style={{ backgroundImage: `url(/assets/img/breadcrumb/breadcrumb.png)` }}>
         <div className="it-breadcrumb__shape-2 wow itfadeRight" data-wow-duration=".9s" data-wow-delay=".9s">
-          <img src="assets/img/breadcrumb/shape-1-2.png" alt="rk-theme" />
+          <Image src="assets/img/breadcrumb/shape-1-2.png" alt="rk-theme" />
         </div>
         <div className="it-breadcrumb__shape-3 wow itfadeRight" data-wow-duration=".9s" data-wow-delay="1.4s">
-          <img src="assets/img/breadcrumb/shape-1-3.png" alt="rk-theme" />
+          <Image src="assets/img/breadcrumb/shape-1-3.png" alt="rk-theme" />
         </div>
         <div className="container">
           <div className="row">

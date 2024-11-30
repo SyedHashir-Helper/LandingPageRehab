@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const BlogHomeTwo = () => {
   return (
@@ -24,7 +25,7 @@ const BlogHomeTwo = () => {
               <div className="it-blog-4__item">
                 <div className="it-blog-4__thumb-box p-relative">
                   <div className="it-blog-4__thumb p-relative">
-                    <img className="w-100" src="assets/img/blog/blog-4-1.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-4-1.jpg" alt="rk-theme" />
                     <div className="it-blog-4__icon">
                       <a className="popup-image" href="assets/img/blog/blog-4-1.jpg"><i
                         className="fa-solid fa-plus"></i></a>
@@ -51,7 +52,7 @@ const BlogHomeTwo = () => {
               <div className="it-blog-4__item">
                 <div className="it-blog-4__thumb-box p-relative">
                   <div className="it-blog-4__thumb p-relative">
-                    <img className="w-100" src="assets/img/blog/blog-4-2.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-4-2.jpg" alt="rk-theme" />
                     <div className="it-blog-4__icon">
                       <a className="popup-image" href="assets/img/blog/blog-4-2.jpg"><i
                         className="fa-solid fa-plus"></i></a>
@@ -79,7 +80,7 @@ const BlogHomeTwo = () => {
               <div className="it-blog-4__item">
                 <div className="it-blog-4__thumb-box p-relative">
                   <div className="it-blog-4__thumb p-relative">
-                    <img className="w-100" src="assets/img/blog/blog-4-3.jpg" alt="rk-theme" />
+                    <Image className="w-100" src="assets/img/blog/blog-4-3.jpg" alt="rk-theme" />
                     <div className="it-blog-4__icon">
                       <a className="popup-image" href="assets/img/blog/blog-4-3.jpg"><i
                         className="fa-solid fa-plus"></i></a>

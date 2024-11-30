@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import React, { useEffect } from 'react';
-
+import Image from 'next/image';
 const ProjectHomeOne = () => {
 
   useEffect(() => {
@@ -56,7 +56,7 @@ const ProjectHomeOne = () => {
               <div className="it-panel-item-box p-relative">
                 <div className="it-panel-item">
                   <div className="it-panel-content">
-                    <img src="assets/img/project/prroject-big.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/prroject-big.jpg" alt="rk-theme" />
                   </div>
                 </div>
                 <div className="it-panel-item-2">
@@ -72,7 +72,7 @@ const ProjectHomeOne = () => {
               <div className="it-panel-item-box p-relative">
                 <div className="it-panel-item">
                   <div className="it-panel-content">
-                    <img src="assets/img/project/prroject-big-4.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/prroject-big-4.jpg" alt="rk-theme" />
                   </div>
                 </div>
                 <div className="it-panel-item-2">
@@ -88,7 +88,7 @@ const ProjectHomeOne = () => {
               <div className="it-panel-item-box p-relative">
                 <div className="it-panel-item">
                   <div className="it-panel-content">
-                    <img src="assets/img/project/prroject-big-2.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/prroject-big-2.jpg" alt="rk-theme" />
                   </div>
                 </div>
                 <div className="it-panel-item-2">
@@ -104,7 +104,7 @@ const ProjectHomeOne = () => {
               <div className="it-panel-item-box p-relative">
                 <div className="it-panel-item">
                   <div className="it-panel-content">
-                    <img src="assets/img/project/prroject-big-3.jpg" alt="rk-theme" />
+                    <Image src="assets/img/project/prroject-big-3.jpg" alt="rk-theme" />
                   </div>
                 </div>
                 <div className="it-panel-item-2">

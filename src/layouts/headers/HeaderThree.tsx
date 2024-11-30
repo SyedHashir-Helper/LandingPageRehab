@@ -7,7 +7,7 @@ import NavMenu from './Menu/nav-menu';
 import useSticky from '@/hooks/use-sticky';
 import Search from '@/components/common/Search';
 import Offcanvus from '@/components/common/Offcanvus';
-
+import Image from 'next/image';
 const HeaderThree = () => {
 
   const { sticky } = useSticky()
@@ -59,7 +59,7 @@ const HeaderThree = () => {
             <div className="container container-large">
               <div className="it-header__wrap p-relative">
                 <div className="it-header__logo d-none d-xl-block">
-                  <Link href="/"><img src="assets/img/logo/black-logo.png" alt="rk-theme" /></Link>
+                  <Link href="/"><Image src="assets/img/logo/black-logo.png" alt="rk-theme" /></Link>
                 </div>
                 <div className="row align-items-center">
                   <div className="col-xl-10 col-lg-6 col-md-6 col-6">
@@ -71,7 +71,7 @@ const HeaderThree = () => {
                       </nav>
                     </div>
                     <div className="it-header__main-logo d-xl-none">
-                      <Link href="/"><img src="assets/img/logo/white-logo.png" alt="rk-theme" /></Link>
+                      <Link href="/"><Image src="assets/img/logo/white-logo.png" alt="rk-theme" /></Link>
                     </div>
                   </div>
                   <div className="col-xl-2 col-lg-6 col-md-6 col-6">

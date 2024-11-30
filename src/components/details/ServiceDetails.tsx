@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from 'next/image';
 const ServiceDetails = () => {
 	return (
 		<>
@@ -84,7 +84,7 @@ const ServiceDetails = () => {
 										construction and design disciplines and expertise.
 									</p>
 									<div className="it-service-details__thumb pb-30">
-										<img
+										<Image
 											src="assets/img/service/details1-1.jpg"
 											alt="rk-theme"
 										/>

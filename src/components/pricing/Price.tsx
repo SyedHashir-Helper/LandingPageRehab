@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-
+import Image from 'next/image';
 const Price = () => {
   return (
     <>
@@ -57,7 +57,7 @@ const Price = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                   <div className="it-pricing-5__item z-index fix p-relative active">
                     <div className="it-pricing-5__shape">
-                      <img src="assets/img/project/shape-5-2.png" alt="rk-theme" />
+                      <Image src="assets/img/project/shape-5-2.png" alt="rk-theme" />
                     </div>
                     <div className="it-pricing-5__top-box mb-30">
                       <i className="flaticon-internet"></i>
@@ -127,7 +127,7 @@ const Price = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                   <div className="it-pricing-5__item z-index fix p-relative active">
                     <div className="it-pricing-5__shape">
-                      <img src="assets/img/project/shape-5-2.png" alt="rk-theme" />
+                      <Image src="assets/img/project/shape-5-2.png" alt="rk-theme" />
                     </div>
                     <div className="it-pricing-5__top-box mb-30">
                       <i className="flaticon-internet"></i>

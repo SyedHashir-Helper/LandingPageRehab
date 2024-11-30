@@ -4,6 +4,7 @@
 import React from 'react';
 import { Autoplay, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image';
 
 const setting = {
   // Optional parameters
@@ -88,7 +89,7 @@ const BusinessAbout = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="it-business-3__item d-flex p-relative">
                     <div className="it-business-3__thumb">
-                      <img src="assets/img/business/author-3-2.png" alt="rk-theme" />
+                      <Image src="assets/img/business/author-3-2.png" alt="rk-theme" />
                     </div>
                     <div className="it-business-3__text">
                       <h5 className="it-business-3__title">Gaming and <br />
@@ -104,7 +105,7 @@ const BusinessAbout = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="it-business-3__item d-flex p-relative">
                     <div className="it-business-3__thumb">
-                      <img src="assets/img/business/author-3-1.png" alt="rk-theme" />
+                      <Image src="assets/img/business/author-3-1.png" alt="rk-theme" />
                     </div>
                     <div className="it-business-3__text">
                       <h5 className="it-business-3__title">Business and <br />
@@ -120,7 +121,7 @@ const BusinessAbout = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="it-business-3__item d-flex p-relative">
                     <div className="it-business-3__thumb">
-                      <img src="assets/img/business/author-3-3.png" alt="rk-theme" />
+                      <Image src="assets/img/business/author-3-3.png" alt="rk-theme" />
                     </div>
                     <div className="it-business-3__text">
                       <h5 className="it-business-3__title">Information <br />
@@ -136,7 +137,7 @@ const BusinessAbout = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="it-business-3__item d-flex p-relative">
                     <div className="it-business-3__thumb">
-                      <img src="assets/img/business/author-3-1.png" alt="rk-theme" />
+                      <Image src="assets/img/business/author-3-1.png" alt="rk-theme" />
                     </div>
                     <div className="it-business-3__text">
                       <h5 className="it-business-3__title">Business and <br />

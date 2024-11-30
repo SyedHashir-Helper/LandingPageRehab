@@ -2,13 +2,13 @@
 
 import Link from 'next/link';
 import React from 'react';
-
+import Image from 'next/image';
 const ServiceHomeThree = () => {
   return (
     <>
       <div className="it-service-4__area fix black-bg p-relative pt-120 pb-120 z-index">
         <div className="it-service-4__shape-3">
-          <img src="assets/img/feature/shape-5.png" alt="rk-theme" />
+          <Image src="assets/img/feature/shape-5.png" alt="rk-theme" />
         </div>
         <div className="container">
           <div className="it-service-4__section-wrap">
